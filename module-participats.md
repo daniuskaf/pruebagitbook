@@ -1,13 +1,4 @@
----
-description: >-
-  The | This is where you can find the API paths of the application. These |
-  RouteServiceProvider loads routes into a group that | it is assigned the
-  middleware group "api". Enjoyevaluating and buildin
----
-
-# KOYAG\_PANEL\_API
-
-## 
+# Participants module
 
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
@@ -54,16 +45,6 @@ Cake successfully retrieved.
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
 Could not find a cake matching this query.
@@ -80,94 +61,6 @@ Could not find a cake matching this query.
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
 
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-## Client
-
-{% api-method method="get" host="" path="" %}
-{% api-method-summary %}
-Get client
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=304 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-## Orders
-
-{% api-method method="get" host="" path="get/orders" %}
-{% api-method-summary %}
-Get orders
 {% endapi-method-summary %}
 
 {% api-method-description %}
